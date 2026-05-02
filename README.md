@@ -75,7 +75,6 @@ valuestate-ai/
 
 
 
- ⚠️ Note
 
 The backend is hosted on Render (free tier), so the first request may take a few seconds as the server wakes up.
 
