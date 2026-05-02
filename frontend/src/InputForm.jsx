@@ -36,7 +36,7 @@ export default function InputForm({ loading, setLoading, setResult, setSubmitted
         latitude: latitude ? parseFloat(latitude) : null,
         longitude: longitude ? parseFloat(longitude) : null,
       }
-      const res = await axios.post("http://127.0.0.1:8000/valuate", payload)
+      const res = await axios.post("https://valuestate-backend.onrender.com/valuate", payload)
       setSubmittedData({ ...payload, photoPreview })
       setResult(res.data)
     } catch {
